@@ -1,6 +1,7 @@
 //importing CSS seems to get rid of Alan AI Script and JS Script stops working properly. 
 //I have commented out the Stylesheet import for now.
 import "./style.css"
+import alanBtn from "@alan-ai/alan-sdk-web";
 
 const scoreDisplay = document.getElementById('score')
 const startButton = document.getElementById('start-button')
